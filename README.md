@@ -33,6 +33,10 @@ This project is a visual frontend design and does not include a backend, authent
 
 ![Pet categories](screenshots/pet-categories.png)
 
+### Featured pets
+
+![Featured pets](screenshots/featured-pets.png)
+
 ### Adoption process
 
 ![Adoption process](screenshots/adoption-process.png)
