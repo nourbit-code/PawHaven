@@ -23,6 +23,24 @@ PawHaven is a frontend-only pet adoption website design. It presents a warm, fri
 
 This project is a visual frontend design and does not include a backend, authentication, database, payment system, or real adoption workflow. The pet data and interactions are for demonstration purposes.
 
+## Screenshots
+
+### Home page
+
+![PawHaven home page](screenshots/home-page.png)
+
+### Pet categories
+
+![Pet categories](screenshots/pet-categories.png)
+
+### Adoption process
+
+![Adoption process](screenshots/adoption-process.png)
+
+### Footer and call to action
+
+![Footer and call to action](screenshots/footer-and-cta.png)
+
 ## Run locally
 
 Open `index.html` in a browser, or serve the project with any local static server.
