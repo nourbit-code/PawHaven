@@ -1,0 +1,206 @@
+@import "variables";
+
+.featured {
+    padding: 100px 0;
+    background-color: $light-cream;
+}
+
+.pet-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.pet-card {
+    background-color: $white;
+    border-radius: $border-radius;
+    overflow: hidden;
+    transition: $transition;
+
+    &:hover {
+        transform: translateY(-7px);
+        box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    }
+}
+
+.pet-image {
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+        transition: $transition;
+    }
+
+    &:hover img {
+        transform: scale(1.05);
+    }
+}
+
+.favorite-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+
+    width: 42px;
+    height: 42px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: $white;
+    color: $terracotta;
+
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.pet-info {
+    padding: 22px;
+}
+
+.pet-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+        font-size: 22px;
+        color: $dark-brown;
+    }
+
+    span {
+        font-size: 13px;
+        color: $terracotta;
+    }
+}
+
+.pet-breed {
+    color: $gray;
+    margin-top: 5px;
+}
+
+.pet-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+
+    span {
+        font-size: 13px;
+        color: $gray;
+    }
+}
+
+.categories {
+    padding: 100px 0;
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.category-card {
+    background-color: $white;
+    padding: 35px 20px;
+    text-align: center;
+    border-radius: $border-radius;
+
+    transition: $transition;
+
+    &:hover {
+        background-color: $terracotta;
+        color: $white;
+        transform: translateY(-5px);
+
+        p {
+            color: $white;
+        }
+    }
+
+    h3 {
+        margin-top: 15px;
+        font-size: 20px;
+    }
+
+    p {
+        color: $gray;
+        margin-top: 7px;
+        font-size: 14px;
+    }
+}
+
+.category-icon {
+    font-size: 45px;
+}
+
+.how-it-works {
+    padding: 100px 0;
+}
+
+.steps {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.step {
+    text-align: center;
+
+    .step-number {
+        width: 70px;
+        height: 70px;
+
+        margin: 0 auto 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        border-radius: 50%;
+
+        background-color: $light-terracotta;
+        color: $dark-brown;
+
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    p {
+        color: $gray;
+        line-height: 1.7;
+        margin-top: 10px;
+    }
+}
+
+.adoption-cta {
+    padding: 80px 0;
+    background-color: $terracotta;
+    color: $white;
+}
+
+.cta-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 40px;
+        max-width: 600px;
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,45 @@
+@import "variables";
+
+.navbar {
+    background-color: $cream;
+    padding: 20px 0;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    font-size: 22px;
+    font-weight: bold;
+    color: $dark-brown;
+
+    img {
+        width: 42px;
+        height: 42px;
+        object-fit: contain;
+    }
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+
+    a {
+        color: $brown;
+        font-size: 15px;
+        transition: $transition;
+
+        &:hover,
+        &.active {
+            color: $terracotta;
+        }
+    }
+}

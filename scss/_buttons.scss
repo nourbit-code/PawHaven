@@ -1,0 +1,55 @@
+@import "variables";
+
+.btn {
+    display: inline-block;
+    padding: 14px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: $transition;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: $terracotta;
+    color: $white;
+
+    &:hover {
+        background-color: $dark-brown;
+        transform: translateY(-2px);
+    }
+}
+
+.btn-secondary {
+    border: 1px solid $brown;
+    color: $brown;
+    margin-left: 10px;
+
+    &:hover {
+        background-color: $brown;
+        color: $white;
+    }
+}
+
+.btn-light {
+    background-color: $white;
+    color: $brown;
+
+    &:hover {
+        background-color: $brown;
+        color: $white;
+    }
+}
+
+.btn-card {
+    width: 100%;
+    text-align: center;
+    background-color: $brown;
+    color: $white;
+    padding: 11px;
+    margin-top: 18px;
+
+    &:hover {
+        background-color: $terracotta;
+    }
+}

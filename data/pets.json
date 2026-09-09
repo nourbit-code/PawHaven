@@ -1,0 +1,94 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "name": "Luna",
+      "species": "Dog",
+      "breed": "Golden Retriever",
+      "age": 2,
+      "gender": "Female",
+      "location": "Cairo",
+      "color": "Golden",
+      "size": "Large",
+      "image": "images/dog-png-22657.png",
+      "description": "Luna is a friendly and playful Golden Retriever who loves people and enjoys spending time outdoors.",
+      "personality": [
+        "Friendly",
+        "Playful",
+        "Good with children"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Milo",
+      "species": "Cat",
+      "breed": "Persian",
+      "age": 1,
+      "gender": "Male",
+      "location": "Giza",
+      "color": "White",
+      "size": "Small",
+      "image": "images/hero.png",
+      "description": "Milo is a calm Persian cat who enjoys quiet spaces and lots of attention.",
+      "personality": [
+        "Calm",
+        "Affectionate",
+        "Indoor"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Bella",
+      "species": "Dog",
+      "breed": "Labrador",
+      "age": 3,
+      "gender": "Female",
+      "location": "Cairo",
+      "color": "Brown",
+      "size": "Large",
+      "image": "images/image-from-rawpixel-id-6814434-png.png",
+      "description": "Bella is an energetic Labrador who loves playing and meeting new people.",
+      "personality": [
+        "Energetic",
+        "Friendly",
+        "Playful"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Rocky",
+      "species": "Dog",
+      "breed": "Beagle",
+      "age": 4,
+      "gender": "Male",
+      "location": "Alexandria",
+      "color": "White and Brown",
+      "size": "Medium",
+      "image": "images/rocky.jpg",
+      "description": "Rocky is a curious Beagle who loves walks and exploring new places.",
+      "personality": [
+        "Curious",
+        "Active",
+        "Loyal"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Coco",
+      "species": "Rabbit",
+      "breed": "Holland Lop",
+      "age": 1,
+      "gender": "Female",
+      "location": "Giza",
+      "color": "White",
+      "size": "Small",
+      "image": "images/coco.jpg",
+      "description": "Coco is a gentle little rabbit who enjoys a peaceful environment and fresh vegetables.",
+      "personality": [
+        "Gentle",
+        "Quiet",
+        "Friendly"
+      ]
+    }
+  ]
+}

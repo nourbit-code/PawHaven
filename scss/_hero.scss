@@ -1,0 +1,124 @@
+@import "variables";
+
+.hero {
+    padding: 80px 0 60px;
+   
+    overflow: hidden;
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.hero-text {
+    width: 50%;
+
+    .hero-small-title {
+        color: $terracotta;
+        font-size: 15px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        margin-bottom: 15px;
+    }
+
+    h1 {
+        font-size: clamp(52px, 6vw, 82px);
+        line-height: 1.05;
+        color: $dark-brown;
+        margin-bottom: 25px;
+
+        span {
+            display: block;
+            color: $terracotta;
+        }
+    }
+
+    p {
+        color: $gray;
+        font-size: 18px;
+        line-height: 1.8;
+        max-width: 520px;
+        margin-bottom: 35px;
+    }
+
+    .hero-buttons {
+        display: flex;
+        gap: 18px;
+    }
+}
+
+.hero-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.hero-circle {
+    width:320px;
+    height: 320px;
+    border-radius: 50%;
+    background: $light-terracotta;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 1;
+}
+
+.hero-image img {
+    width: 470px;
+    height: auto;
+    object-fit: contain;
+    position: relative;
+    z-index: 2;
+    transition: .4s;
+}
+
+.hero-image:hover img {
+    transform: translateY(-8px);
+}
+
+.hero-badge {
+    position: absolute;
+    left: -10px;
+    bottom: 1px;
+
+    background: $white;
+    padding: 4px 22px;
+    border-radius: 18px;
+
+    display: flex;
+    align-items: center;
+    
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .12);
+
+    z-index: 2;
+
+    span {
+        font-size: 15px;
+        color: $terracotta;
+    }
+
+    strong {
+        display: block;
+        font-size: 20px;
+        color: $dark-brown;
+    }
+
+    small {
+        display: block;
+        color: $gray;
+        margin-top: 4px;
+        font-size: 15px;
+    }
+}
